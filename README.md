@@ -2,7 +2,7 @@
 This repository provides training code pre-trained models to simulate highly oscillatory scattered wavefields.
 
 [![Work in Progress](https://img.shields.io/badge/Status-Under%20Construction-orange)](#status)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00.svg)](https://www.tensorflow.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.18-FF6F00.svg)](https://www.tensorflow.org/)
 
 Official code repository for the paper: **"A Green-integral--constrained neural solver with stochastic physics-informed regularization"** by Mohammad Mahdi Abedi, David Pardo, and Tariq Alkhalifah.
 
