@@ -1,5 +1,5 @@
 # Green-Integral-Neural-Solver-for-the-Helmholtz-Equation
-This repository provides training code pre-trained models to simulate highly oscillatory scattered wavefields.
+This repository provides training code and pre-trained models to simulate highly oscillatory scattered wavefields.
 
 [![Work in Progress](https://img.shields.io/badge/Status-Under%20Construction-orange)](#status)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.18-FF6F00.svg)](https://www.tensorflow.org/)
@@ -10,7 +10,7 @@ Official code repository for the paper: **"A Green-integral--constrained neural 
 
 Standard Physics-Informed Neural Networks (PINNs) struggle to resolve highly oscillatory scattered wavefields in heterogeneous media. Relying purely on local PDE residuals can lead to non-physical solutions and requires computationally expensive boundary conditions (like PMLs). 
 
-This repository implements a **Green-Integral (GI) neural solver** that overcomes these limitations. By enforcing global consistency through the Lippmann-Schwinger integral equation, the neural network inherently satisfies the Sommerfeld radiation condition, eliminating the need for PMLs and second-order spatial derivatives.
+This repository implements a **Green-Integral (GI) neural solver** that overcomes these limitations. By enforcing global consistency through the Lippmann-Schwinger integral equation, the neural network inherently satisfies the Sommerfeld radiation condition, eliminating the need for PMLs and second-order spatial derivatives. Consequently, this formulation drastically reduces peak GPU memory usage and training time (by more than 10 folds in our test) while achieving superior predictive accuracy.
 
 ## Repository Structure
 
